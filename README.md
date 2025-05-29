@@ -1,59 +1,44 @@
 # BuzzFeed
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.13.
+# Desafio - Quiz: Você seria um Herói ou um Vilão?
 
-## Development server
+Este projeto é um quiz interativo desenvolvido em Angular, com dados fornecidos por uma API fake via JSON Server. O objetivo é mostrar, com base nas escolhas do usuário, se ele se comportaria como um herói ou um vilão.
 
-To start a local development server, run:
+## 🧠 Objetivo do Projeto
 
-```bash
-ng serve
-```
+- Praticar o consumo de APIs em Angular.
+- Implementar lógica condicional com base em respostas.
+- Simular um resultado dinâmico com base nas escolhas do usuário.
+- Trabalhar com boas práticas de estrutura de componentes e serviços.
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+## 📌 O que foi feito
 
-## Code scaffolding
+- Criação de componente de quiz com perguntas e múltiplas opções.
+- Integração com API fake (JSON Server).
+- Lógica para contar as respostas e gerar um resultado.
+- Botão de reset para refazer o quiz.
+- Estilização com CSS simples para visual limpo e funcional.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🛠 Tecnologias Utilizadas
 
-```bash
-ng generate component component-name
-```
+- Angular  
+- TypeScript  
+- HTML e CSS  
+- JSON Server  
+- Visual Studio Code  
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## ✅ Entregáveis
 
-```bash
-ng generate --help
-```
+- Interface de quiz interativa.
+- Lógica para selecionar respostas e calcular o resultado mais recorrente.
+- Mensagem final personalizada com base na personalidade escolhida (herói ou vilão).
+- API fake estruturada no arquivo `db.json`.
 
-## Building
+## 📎 Conclusão
 
-To build the project run:
+Este projeto permitiu aplicar conceitos essenciais do Angular como componentes, serviços e binding de dados, além de reforçar o uso de uma API fake com JSON Server para testes rápidos e sem dependência de back-end real. Também reforçou a importância da lógica de programação no front-end e da experiência do usuário na interação com o app.
 
-```bash
-ng build
-```
+---
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**Desenvolvido por Ana Carolina**  
+Estudante de Ciência da Computação, apaixonada por tecnologia, front-end e desafios com superpoderes. 💻⚡

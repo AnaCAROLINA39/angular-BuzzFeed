@@ -1,0 +1,59 @@
+{
+  "quizzes": [
+    {
+      "id": 1,
+      "title": "Você seria um herói ou vilão?",
+      "questions": [
+        {
+          "id": 1,
+          "text": "Qual super poder você escolheria?",
+          "options": [
+            { "id": 1, "text": "Raios-Lasers", "alias": "A" },
+            { "id": 2, "text": "Voar", "alias": "B" },
+            { "id": 3, "text": "Explodir coisas", "alias": "A" },
+            { "id": 4, "text": "Curar feridas", "alias": "B" }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "Quem você salvaria primeiro?",
+          "options": [
+            { "id": 1, "text": "Crianças", "alias": "B" },
+            { "id": 2, "text": "Idosos", "alias": "B" },
+            { "id": 3, "text": "Ninguém", "alias": "A" }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "Qual a sua maior preocupação ao enfretar outro super ser ?",
+          "options": [
+            { "id": 1, "text": "Não destruir prédios", "alias": "B" },
+            { "id": 2, "text": "Socar a cara do inimigo", "alias": "A" },
+            { "id": 3, "text": "Não sujar meu traje", "alias": "A" },
+            { "id": 4, "text": "Não deixar ninguém se ferir", "alias": "B" }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "Qual o seu maior foco ?",
+          "options": [
+            { "id": 1, "text": "Ficar rico com poderes", "alias": "A" },
+            { "id": 2, "text": "Salvar a cidade", "alias": "B" }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "Qual o seu apelido de super ser ?",
+          "options": [
+            { "id": 1, "text": "O Terrivel", "alias": "A" },
+            { "id": 2, "text": "Amigo da vizinhança", "alias": "B" }
+          ]
+        }
+      ],
+      "results": {
+        "A": "Você seria um super vilão!",
+        "B": "Você seria um super herói!"
+      }
+    }
+  ]
+}
